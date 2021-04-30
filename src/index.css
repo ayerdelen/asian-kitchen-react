@@ -44,7 +44,7 @@ header {
 
 .card-body {
   display: flex;
-  max-width: 500px;
+  width: 500px;
   margin-bottom: 20px;
   margin-right: 20px;
 }
