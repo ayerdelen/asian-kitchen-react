@@ -39,13 +39,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .card-body {
   display: flex;
-  flex: 1 1 100%;
   max-width: 500px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -54,13 +52,16 @@ header {
   border: 0.25rem solid black;
   max-width: 180px;
   border-radius: 10px;
-  min-height: 200px;
+  min-height: 180px;
 }
 
 .photo {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+.menu-info {
+  padding-left: 20px;
 }
 
 .menu-title {
@@ -71,4 +72,24 @@ header {
 
 h4 {
   color: #e00a00;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 5px 8px;
+  border: 2px solid black;
+  background-color: white;
+  color: #000;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #fa8c5a;
+  color: #fff;
 }
